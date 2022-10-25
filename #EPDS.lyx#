@@ -119,7 +119,7 @@ Shall be able to move each pusher with at least a minimum of x m/s in any
 Shall have a weight that is less than 5 lbs 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Electrical 
 \end_layout
 
@@ -149,7 +149,7 @@ Shall have a motor controller to regulate current direction and amount sent
 Shall have electrical designs for circuit 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Software 
 \end_layout
 
@@ -189,7 +189,7 @@ shall have a designated initialization state
 Shall use github to version control the software 
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection
 Safety and logistics 
 \end_layout
 
@@ -206,6 +206,21 @@ Shall have a software reset button that returns the robot to initialization
 \begin_layout Enumerate
 Shall have a active budget of 40 dollars and fabrication budget of 300 dollars
  
+\end_layout
+
+\begin_layout Section
+Design
+\end_layout
+
+\begin_layout Subsection
+Mechanical 
+\end_layout
+
+\begin_layout Enumerate
+We should use 4 holonomic wheels to help the robot navigate the stage.
+ This will help in manuverability along with ease of motion planning.
+ Along with increase the speed in which we can orient pushers to start pushing
+ b
 \end_layout
 
 \end_body
