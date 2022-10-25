@@ -12,7 +12,7 @@
 
 \usepackage{babel}
 \begin{document}
-\title{Element perfomance design and specification}
+\title{Element performance design and specification}
 \maketitle
 
 \section{Requirements }
@@ -54,7 +54,7 @@ to
 \item Shall detect current state of pusher at initialization and move to
 a designated initialization state for pusher Robot 
 \item shall have a designated initialization state 
-\item Shall use github to version control the software 
+\item Shall use GitHub to version control the software 
 \end{enumerate}
 
 \subsection{Safety and logistics }
@@ -72,9 +72,49 @@ state
 \subsection{Mechanical }
 \begin{enumerate}
 \item We should use 4 holonomic wheels to help the robot navigate the stage.
-This will help in manuverability along with ease of motion planning.
+This will help in maneuverability along with ease of motion planning.
 Along with increase the speed in which we can orient pushers to start
 pushing blocks.
+\item Undetermined 
+\item Undetermined 
+\item Cad files will be made in NX and stored in Teams
+\item Will use 4 parallax motors and a latch spring mechanism to activate
+the pushers 
+\item Undetermined
+\end{enumerate}
+
+\subsection{Electrical}
+\begin{enumerate}
+\item We will use a combination of ultra sound sensors and a TOF (undetermined)
+to sense in front of the robot 
+\item Will use a QTI sensor to detect which side of the field we are one
+\item A servo will be used to activate the latch spring mechanism and activatation
+of the latch spring mechanism will indicate the state of the pushers.
+\item All 4 parallax motors have built in absolute position sensors which
+can be used to detect both the velocity and position of the wheels 
+\item Undetermined
+\item Undertermined in what format and where they will be stored 
+\end{enumerate}
+
+\subsection{Software}
+\begin{enumerate}
+\item will have a interrupts that detect when the qti sensor has changed
+fields 
+\item Code flow to be determined will be stored on github
+\item Code flow to be determined will be stored on github
+\item Code flow to be determined will be stored on github
+\item Will use ROS and gazebo to simualte the robot for virtual testing
+and developement 
+\item Will store whether the latch mechanism was activated or not 
+\item Will be determined
+\item Code can be found here : (Repo to be Created)
+\end{enumerate}
+
+\subsection{Safety and Logistics }
+\begin{enumerate}
+\item Will determine 
+\item Will determine
+\item Will verify against the BOMS
 \end{enumerate}
 
 \end{document}
