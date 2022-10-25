@@ -1,0 +1,70 @@
+%% LyX 2.3.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[english]{article}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{luainputenc}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{babel}
+
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\title{Element perfomance design and specification}
+\title{Requirements }
+\maketitle
+
+\section*{Mechanical }
+\begin{enumerate}
+\item Shall have a method of navigating through the field 
+\item Shall have at least one pusher/puller hereby referred to as a pusher
+for moving blocks around the field 
+\item Shall fit in a 8in by 8in box at start of play and 18in cylinder during
+all of play 
+\item Shall have cad files made for each component 
+\item Shall be able to move each pusher with at least a minimum of x m/s
+in any direction 
+\item Shall have a weight that is less than 5 lbs 
+\end{enumerate}
+
+\section*{Electrical }
+\begin{enumerate}
+\item Shall be able to sense items in front of the robot 
+\item Shall be able to detect which side of the field each pusher is on 
+\item Shall be able to detect the state of the pusher 
+\item Shall be able to detect the velocity or absolute position of all wheels 
+\item Shall have a motor controller to regulate current direction and amount
+sent to each actuator 
+\item Shall have electrical designs for circuit 
+\end{enumerate}
+
+\section*{Software }
+\begin{enumerate}
+\item Shall be able to interrupt when a pusher has entered the other side
+of field 
+\item Shall have a looping algorithm to move blocks to either side of the
+field 
+\item Shall be able to move the the robot autonomously across the field 
+\item Shall be able to choose which side of the field blocks should be moved
+to 
+\item Shall use a robotic simulation environment to test the code 
+\item Shall detect current state of pusher at initialization and move to
+a designated initialization state for pusher Robot 
+\item shall have a designated initialization state 
+\item Shall use github to version control the software 
+\end{enumerate}
+
+\section*{Safety and logistics }
+\begin{enumerate}
+\item Shall have a hard reset button that can be easily reached to turn
+off all components of the robot 
+\item Shall have a software reset button that returns the robot to initialization
+state 
+\item Shall have a active budget of 40 dollars and fabrication budget of
+300 dollars 
+\end{enumerate}
+
+\end{document}
